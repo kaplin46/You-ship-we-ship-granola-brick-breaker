@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://odh8tw2v8lm3"]
+
+[ext_resource type="Texture2D" uid="uid://wd1x2m8kamc6" path="res://PXL_20260129_133810117.jpg" id="1_11pgb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cwokx"]
+size = Vector2(84.5, 73)
+
+[node name="Node2D" type="Node2D" unique_id=678712698]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=768363557 groups=["bricks are for kids"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2123200525]
+shape = SubResource("RectangleShape2D_cwokx")
+
+[node name="Pxl20260129133810117" type="Sprite2D" parent="StaticBody2D" unique_id=1087380913]
+scale = Vector2(0.53616357, 0.3490566)
+texture = ExtResource("1_11pgb")
